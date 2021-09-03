@@ -9,3 +9,5 @@ console.log(nome.substring(1))
 console.log(nome.substring(0, 3))
 // Muda todos os indíces expecificos
 console.log(nome.replace('h', 'rr'))
+// Template string (para diminuir o tamnho de concatenações)
+console.log(`Meu nome é ${nome}`)
